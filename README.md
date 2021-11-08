@@ -33,3 +33,5 @@ Make global decisions about the cluster, scheduling, starting a new pod to acomp
 **DaemonSet**: Deploy pods in every node. No replica number needed. (Can be used for monitoring services)
 
 **StatefulSet** : Persistent volume
+
+**ConfigMap** : File used by Pods 
