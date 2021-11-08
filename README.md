@@ -16,7 +16,13 @@ Make global decisions about the cluster, scheduling, starting a new pod to acomp
 ### Node
 
 - **kubelet**: Agent that runs on each node. Makes sure that containers are running in a pod
-- **k-proxy**: Network proxy. Uses the OS packet filtering layer otherwise forwards the traffic itself
+- **k-proxy**: Network proxy. Uses the OS packet filtering layer otherwise forwards the traffic itself  
+          
+          - Cluster IP
+           
+          - Node Port 
+       
+          - Load Balancer 
 - **container runtime**: Responsible for running containers. Supports Docker, containerd, CRI-O
 
 
