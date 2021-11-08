@@ -18,3 +18,9 @@ Make global decisions about the cluster, scheduling, starting a new pod to acomp
 - **kubelet**: Agent that runs on each node. Makes sure that containers are running in a pod
 - **k-proxy**: Network proxy. Uses the OS packet filtering layer otherwise forwards the traffic itself
 - **container runtime**: Responsible for running containers. Supports Docker, containerd, CRI-O
+
+
+
+**Pods**: Smallest deployable unit that can be created and managed in Kubernetes
+**Deployment**: Declarative manifest template fot Pods and ReplicaSets
+**DaemonSet**: Deploy pods in every node. No replica number needed. (Can be used for monitoring services)
