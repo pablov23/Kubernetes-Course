@@ -23,4 +23,7 @@ Make global decisions about the cluster, scheduling, starting a new pod to acomp
 
 **Pods**: Smallest deployable unit that can be created and managed in Kubernetes
 **Deployment**: Declarative manifest template fot Pods and ReplicaSets
+
 **DaemonSet**: Deploy pods in every node. No replica number needed. (Can be used for monitoring services)
+
+**StatefulSet** : Persistent volume
