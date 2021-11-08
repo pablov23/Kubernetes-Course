@@ -18,11 +18,11 @@ Make global decisions about the cluster, scheduling, starting a new pod to acomp
 - **kubelet**: Agent that runs on each node. Makes sure that containers are running in a pod
 - **k-proxy**: Network proxy. Uses the OS packet filtering layer otherwise forwards the traffic itself  
           
-          - Cluster IP: Service that can balance traffic using label, source and target port.
+          - Cluster IP: Service that can balance traffic using a label, source and target port.
            
-          - Node Port 
+          - Node Port: Expose port in the external IP, linked to the Node IP
        
-          - Load Balancer 
+          - Load Balancer: Uses a provider Load Balancer
 - **container runtime**: Responsible for running containers. Supports Docker, containerd, CRI-O
 
 
